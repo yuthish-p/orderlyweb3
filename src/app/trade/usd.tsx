@@ -13,13 +13,9 @@ export default function Trading({ params }: { params: { symbol: string } }) {
         networkId="testnet"
         brokerId="<Your broker id>"
         brokerName="<Your name>"
-        appIcons={...}
+        
       >
-        <TradingPage
-          symbol={params.symbol}
-          tradingViewConfig={`tradingView config`}
-          onSymbolChange={`onSymbolChange handler`}
-        />
+        
       </OrderlyAppProvider>
     </ConnectorProvider>
   );
