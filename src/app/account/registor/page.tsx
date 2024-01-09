@@ -6,6 +6,12 @@ export default function Page() {
     // getRegistrationNonce()
     // registerAccount()
     
-    return <p>registor home Page</p>;
+    return (
+        <>
+            <div>
+                <h1>register the account</h1>
+            </div>
+        </>
+    );
 }
 
