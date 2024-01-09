@@ -4,7 +4,7 @@ export default function Page() {
 
 
     // getRegistrationNonce()
-    console.log(registerAccount())
+    // registerAccount()
     
     return <p>registor home Page</p>;
 }
