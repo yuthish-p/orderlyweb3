@@ -1,11 +1,8 @@
-import { Core } from '@walletconnect/core';
-import { Web3Wallet } from '@walletconnect/web3wallet';
 import { FC,PropsWithChildren,createContext,useContext,useEffect } from "react";
-import { WagmiConfig } from "wagmi";
 import { arbitrum, mainnet } from "viem/chains";
 import { useAccount } from "@orderly.network/hooks";
 import { createWeb3Modal, defaultWagmiConfig, useWeb3Modal } from "@web3modal/wagmi/react";
-
+import { useClient } from 'next/data-client'; 
 
 interface WalletConnectContextState {
     connect: () => Promise<any>;
