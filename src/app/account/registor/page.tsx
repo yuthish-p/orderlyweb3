@@ -1,4 +1,4 @@
-import { registerAccount,getRegistrationNonce } from '/home/yuthish7812/project1/orderly/ordery-trade/src/app/lib/reg.ts';
+import { registerAccount,getRegistrationNonce } from '../../lib/reg';
 
 export default function Page() {
 
