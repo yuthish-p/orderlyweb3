@@ -1,6 +1,6 @@
 import "./globals.css";
 
-import { Web3Modal } from "../lib/web3wallet";
+import { Web3Modal } from "../context/Web3Modal";
 
 export const metadata = {
   title: "Web3Modal",
