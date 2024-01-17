@@ -23,6 +23,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/lib/web3wallet.jsx", "src/app/layout/layout.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/lib/web3wallet.jsx", "src/app/layout/layout.jsx", "src/app/account/wallet/wallet3/page.jsx"],
   "exclude": ["node_modules"]
 }
